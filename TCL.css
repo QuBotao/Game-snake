@@ -1,0 +1,34 @@
+  *{
+  	padding:0px;
+  	margin: 0px;
+  }
+  
+  #wrapper {
+    position:relative;
+    height: 600px;
+    width:800px;
+    top:50%;
+    left:50%;
+    margin-left:-400px;
+    margin-top:-300px;
+    border:1px solid red;
+  }
+  
+  .snake{
+    position: absolute;
+    width: 20px;
+    height:20px;
+    background-color: green;
+  }
+  
+  #snake-head{
+    top:0px;
+    left:40px;
+  }
+  
+  .food{
+    position: absolute;
+    height:20px;
+    width:20px;
+    background-color: red;
+  }
